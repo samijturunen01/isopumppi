@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Iso Pumppi Kuntosali</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Oma CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Yläosa -->
+  <div class="p-5 text-white text-center hero">
+    <h1>ISO PUMPPI</h1>
+    <p>Kuntosali, jossa tehdään tuloksia.</p>
+  </div>
+
+  <!-- Navigaatio -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">ISO PUMPPI</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#meista">Meistä</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#palvelut">Palvelut</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#paivan-liike">Päivän liike</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#yhteystiedot">Yhteystiedot</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Meistä -->
+  <section class="container my-5" id="meista">
+
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+
+        <h2>Iso Pumppi</h2>
+
+        <p>
+          Iso Pumppi on moderni kuntosali kaikentasoisille treenaajille.
+          Meiltä löydät monipuoliset laitteet, vapaat painot sekä tilat
+          tehokkaaseen harjoitteluun.
+        </p>
+
+        <p>
+          Olitpa vasta aloittamassa kuntosaliharjoittelua tai jo kokenut
+          treenaaja, Iso Pumpilta löydät kaiken mitä tarvitset.
+        </p>
+
+        <a href="#hinnasto" class="btn btn-dark">
+          Katso hinnasto
+        </a>
+
+      </div>
+
+      <div class="col-md-6 mt-4 mt-md-0">
+
+        <img
+          src="https://images.unsplash.com/photo-1689877020200-403d8542d95d?auto=format&fit=crop&w=1200&q=80"
+          class="img-fluid rounded"
+          alt="Iso Pumppi kuntosali"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Palvelut -->
+  <section class="bg-light py-5" id="palvelut">
+
+    <div class="container">
+
+      <h2 class="text-center mb-4">Palvelut</h2>
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3">
+
+          <div class="card h-100">
+
+            <div class="card-body">
+
+              <h4 class="card-title">Kuntosali</h4>
+
+              <p class="card-text">
+                Monipuoliset kuntosalilaitteet, vapaat painot ja
+                laadukkaat harjoittelutilat.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+          <div class="card h-100">
+
+            <div class="card-body">
+
+              <h4 class="card-title">Personal Training</h4>
+
+              <p class="card-text">
+                Saat henkilökohtaisen harjoitusohjelman ja apua
+                tavoitteidesi saavuttamiseen.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+          <div class="card h-100">
+
+            <div class="card-body">
+
+              <h4 class="card-title">Ryhmäliikunta</h4>
+
+              <p class="card-text">
+                Treenaa yhdessä muiden kanssa ohjatuilla
+                ryhmäliikuntatunneilla.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Hinnasto -->
+  <section class="container my-5" id="hinnasto">
+
+    <h2 class="text-center mb-4">Hinnasto</h2>
+
+    <div class="row justify-content-center">
+
+      <div class="col-md-4 mb-3">
+
+        <div class="card text-center">
+
+          <div class="card-body">
+
+            <h3>Kuukausijäsenyys</h3>
+
+            <h2>39,90 €</h2>
+
+            <p>/ kuukausi</p>
+
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#joinModal"
+            >
+              Liity jäseneksi
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4 mb-3">
+
+        <div class="card text-center">
+
+          <div class="card-body">
+
+            <h3>Kertakäynti</h3>
+
+            <h2>10 €</h2>
+
+            <p>/ käynti</p>
+
+            <a href="#" class="btn btn-dark">
+              Osta kertakäynti
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Päivän liike / JSON -->
+  <section class="bg-light py-5" id="paivan-liike">
+
+    <div class="container">
+
+      <h2 class="text-center mb-4">Päivän liike</h2>
+
+      <p class="text-center">
+        Päivän harjoitusliike haetaan ulkoiselta palvelimelta.
+      </p>
+
+      <div class="card p-4 mx-auto exercise-card" id="exercise">
+
+        <p>Ladataan liikettä...</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Jäsenyys Modal -->
+  <div class="modal fade" id="joinModal" tabindex="-1">
+
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h5 class="modal-title">
+            Liity Iso Pumpin jäseneksi
+          </h5>
+
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>
+            Jätä yhteystietosi, niin otamme sinuun yhteyttä.
+          </p>
+
+          <input
+            type="text"
+            class="form-control mb-2"
+            placeholder="Nimi"
+          >
+
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Sähköposti"
+          >
+
+        </div>
+
+        <div class="modal-footer">
+
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Sulje
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-danger"
+          >
+            Lähetä
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Yhteystiedot -->
+  <section class="container my-5" id="yhteystiedot">
+
+    <h2>Yhteystiedot</h2>
+
+    <p>
+      <strong>Iso Pumppi Kuntosali</strong>
+    </p>
+
+    <p>Kuntosalitie 10, Joensuu</p>
+
+    <p>050 123 4567</p>
+
+    <p>info@isopumppi.fi</p>
+
+    <h4 class="mt-4">Aukioloajat</h4>
+
+    <p>Ma–Su klo 05–23</p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-4 bg-dark text-white text-center">
+
+    <p class="mb-0">
+      © 2026 Iso Pumppi
+    </p>
+
+  </footer>
+
+  <!-- Oma JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
